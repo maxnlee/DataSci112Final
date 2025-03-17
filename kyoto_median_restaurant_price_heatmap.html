@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6aeff08eb8d37768e8436bbc0392ef52 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6aeff08eb8d37768e8436bbc0392ef52" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6aeff08eb8d37768e8436bbc0392ef52 = L.map(
+                "map_6aeff08eb8d37768e8436bbc0392ef52",
+                {
+                    center: [35.0116, 135.7681],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_637e2cb30f91bebe066db9b1e1d50df0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_637e2cb30f91bebe066db9b1e1d50df0.addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+            var rectangle_d77eb40f16c6043b482fe3d7a3b0e1a4 = L.rectangle(
+                [[34.820063438070186, 135.72216396475076], [34.83706343807019, 135.73916396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_52661d0b1efb2cb114b502a3838a50d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1eba360844f7ee32af15b1140ec77457 = $(`<div id="html_1eba360844f7ee32af15b1140ec77457" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 5</div>`)[0];
+                popup_52661d0b1efb2cb114b502a3838a50d8.setContent(html_1eba360844f7ee32af15b1140ec77457);
+            
+        
+
+        rectangle_d77eb40f16c6043b482fe3d7a3b0e1a4.bindPopup(popup_52661d0b1efb2cb114b502a3838a50d8)
+        ;
+
+        
+    
+    
+            var rectangle_894053da7086edbc549a5dc8a4d1d6e3 = L.rectangle(
+                [[34.8880634380702, 135.79016396475075], [34.9050634380702, 135.80716396475074]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_f6cb88f40b6d85761bfc661fe1ff6005 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68b5fb79f83e2fec561c2fc05f12b048 = $(`<div id="html_68b5fb79f83e2fec561c2fc05f12b048" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 6</div>`)[0];
+                popup_f6cb88f40b6d85761bfc661fe1ff6005.setContent(html_68b5fb79f83e2fec561c2fc05f12b048);
+            
+        
+
+        rectangle_894053da7086edbc549a5dc8a4d1d6e3.bindPopup(popup_f6cb88f40b6d85761bfc661fe1ff6005)
+        ;
+
+        
+    
+    
+            var rectangle_2885c6f032bd592b0a0c54b1799ded2b = L.rectangle(
+                [[34.922063438070204, 135.68816396475077], [34.93906343807021, 135.70516396475077]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_9e24882e99dab75a6f91e38e35c61001 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dddcfa4328d2826a91dfef35e0231362 = $(`<div id="html_dddcfa4328d2826a91dfef35e0231362" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 7</div>`)[0];
+                popup_9e24882e99dab75a6f91e38e35c61001.setContent(html_dddcfa4328d2826a91dfef35e0231362);
+            
+        
+
+        rectangle_2885c6f032bd592b0a0c54b1799ded2b.bindPopup(popup_9e24882e99dab75a6f91e38e35c61001)
+        ;
+
+        
+    
+    
+            var rectangle_6ae617c44602235276a31455085cbeaf = L.rectangle(
+                [[34.922063438070204, 135.75616396475075], [34.93906343807021, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_5f21f1901524fd2e0c829a3c1949ce17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2350896f8e9f45d917363903fa553b25 = $(`<div id="html_2350896f8e9f45d917363903fa553b25" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 28</div>`)[0];
+                popup_5f21f1901524fd2e0c829a3c1949ce17.setContent(html_2350896f8e9f45d917363903fa553b25);
+            
+        
+
+        rectangle_6ae617c44602235276a31455085cbeaf.bindPopup(popup_5f21f1901524fd2e0c829a3c1949ce17)
+        ;
+
+        
+    
+    
+            var rectangle_19cbf1ed85be7b880e4c1ee4d4ff1274 = L.rectangle(
+                [[34.93906343807021, 135.75616396475075], [34.95606343807021, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_4a211b00fa1d7790ccf6d45cd44eb0c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41095f4f4c4d229f9381dc1f184a915b = $(`<div id="html_41095f4f4c4d229f9381dc1f184a915b" style="width: 100.0%; height: 100.0%;">Median Price: ¥2499. Number of restaurants: 7</div>`)[0];
+                popup_4a211b00fa1d7790ccf6d45cd44eb0c2.setContent(html_41095f4f4c4d229f9381dc1f184a915b);
+            
+        
+
+        rectangle_19cbf1ed85be7b880e4c1ee4d4ff1274.bindPopup(popup_4a211b00fa1d7790ccf6d45cd44eb0c2)
+        ;
+
+        
+    
+    
+            var rectangle_544be0494d111d01ae18f985f1ab83d4 = L.rectangle(
+                [[34.95606343807021, 135.75616396475075], [34.97306343807021, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_bd8ab1b9f2577c07e4ffaa8205c89db1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b20e64378829f4e41e7d3a5b343b1e6a = $(`<div id="html_b20e64378829f4e41e7d3a5b343b1e6a" style="width: 100.0%; height: 100.0%;">Median Price: ¥2499. Number of restaurants: 6</div>`)[0];
+                popup_bd8ab1b9f2577c07e4ffaa8205c89db1.setContent(html_b20e64378829f4e41e7d3a5b343b1e6a);
+            
+        
+
+        rectangle_544be0494d111d01ae18f985f1ab83d4.bindPopup(popup_bd8ab1b9f2577c07e4ffaa8205c89db1)
+        ;
+
+        
+    
+    
+            var rectangle_a1e7a423234fa222d48e64ff6263b9ee = L.rectangle(
+                [[34.95606343807021, 135.80716396475074], [34.97306343807021, 135.82416396475074]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_63262e184e92e44ede92217b2b8217c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f7f23723847cae1f0d30d18b1f07aaf = $(`<div id="html_5f7f23723847cae1f0d30d18b1f07aaf" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 6</div>`)[0];
+                popup_63262e184e92e44ede92217b2b8217c2.setContent(html_5f7f23723847cae1f0d30d18b1f07aaf);
+            
+        
+
+        rectangle_a1e7a423234fa222d48e64ff6263b9ee.bindPopup(popup_63262e184e92e44ede92217b2b8217c2)
+        ;
+
+        
+    
+    
+            var rectangle_74bee9d4f844f26b8676a458d384a596 = L.rectangle(
+                [[34.97306343807021, 135.68816396475077], [34.990063438070216, 135.70516396475077]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_55321ad78a03c5c48306c6d33c8efe1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fddc3f380a2066bc2fcda4553685f10 = $(`<div id="html_6fddc3f380a2066bc2fcda4553685f10" style="width: 100.0%; height: 100.0%;">Median Price: ¥2499. Number of restaurants: 8</div>`)[0];
+                popup_55321ad78a03c5c48306c6d33c8efe1c.setContent(html_6fddc3f380a2066bc2fcda4553685f10);
+            
+        
+
+        rectangle_74bee9d4f844f26b8676a458d384a596.bindPopup(popup_55321ad78a03c5c48306c6d33c8efe1c)
+        ;
+
+        
+    
+    
+            var rectangle_06f46b94125c26d7b12fb84a2071221f = L.rectangle(
+                [[34.97306343807021, 135.70516396475077], [34.990063438070216, 135.72216396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_608005c63a27b5969862fb0c93eb86db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b5b9a462ad3d9a803c5f56a521d9f82 = $(`<div id="html_3b5b9a462ad3d9a803c5f56a521d9f82" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 5</div>`)[0];
+                popup_608005c63a27b5969862fb0c93eb86db.setContent(html_3b5b9a462ad3d9a803c5f56a521d9f82);
+            
+        
+
+        rectangle_06f46b94125c26d7b12fb84a2071221f.bindPopup(popup_608005c63a27b5969862fb0c93eb86db)
+        ;
+
+        
+    
+    
+            var rectangle_399ecdda621566207739ce7bab9248f9 = L.rectangle(
+                [[34.97306343807021, 135.72216396475076], [34.990063438070216, 135.73916396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_42bf8e5dfad7378f979b0abb3bee9be8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1419af4f6871c54482716c2f3060e767 = $(`<div id="html_1419af4f6871c54482716c2f3060e767" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 12</div>`)[0];
+                popup_42bf8e5dfad7378f979b0abb3bee9be8.setContent(html_1419af4f6871c54482716c2f3060e767);
+            
+        
+
+        rectangle_399ecdda621566207739ce7bab9248f9.bindPopup(popup_42bf8e5dfad7378f979b0abb3bee9be8)
+        ;
+
+        
+    
+    
+            var rectangle_76c1a22522ba81ea6ce7331fc629dcd3 = L.rectangle(
+                [[34.97306343807021, 135.73916396475076], [34.990063438070216, 135.75616396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_8240b99da57f80af10f91991bf0f2ae2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_865e130d3320d3167a5bd26bc38049bd = $(`<div id="html_865e130d3320d3167a5bd26bc38049bd" style="width: 100.0%; height: 100.0%;">Median Price: ¥4499. Number of restaurants: 26</div>`)[0];
+                popup_8240b99da57f80af10f91991bf0f2ae2.setContent(html_865e130d3320d3167a5bd26bc38049bd);
+            
+        
+
+        rectangle_76c1a22522ba81ea6ce7331fc629dcd3.bindPopup(popup_8240b99da57f80af10f91991bf0f2ae2)
+        ;
+
+        
+    
+    
+            var rectangle_e1b5720c1caf1cd18cfe6b9ddfbc24c2 = L.rectangle(
+                [[34.97306343807021, 135.75616396475075], [34.990063438070216, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_8d092aff1d77338329145331835659f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f544bf2f096909f8c4016a4c2ddd8a67 = $(`<div id="html_f544bf2f096909f8c4016a4c2ddd8a67" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 104</div>`)[0];
+                popup_8d092aff1d77338329145331835659f4.setContent(html_f544bf2f096909f8c4016a4c2ddd8a67);
+            
+        
+
+        rectangle_e1b5720c1caf1cd18cfe6b9ddfbc24c2.bindPopup(popup_8d092aff1d77338329145331835659f4)
+        ;
+
+        
+    
+    
+            var rectangle_3d69daf5e6abca2c24ce356678aed5c1 = L.rectangle(
+                [[34.97306343807021, 135.80716396475074], [34.990063438070216, 135.82416396475074]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_3470a9a2b24f7147c5edd84c5efc7b93 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef3d2740a6ac184e90275c8744fdb6bc = $(`<div id="html_ef3d2740a6ac184e90275c8744fdb6bc" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 10</div>`)[0];
+                popup_3470a9a2b24f7147c5edd84c5efc7b93.setContent(html_ef3d2740a6ac184e90275c8744fdb6bc);
+            
+        
+
+        rectangle_3d69daf5e6abca2c24ce356678aed5c1.bindPopup(popup_3470a9a2b24f7147c5edd84c5efc7b93)
+        ;
+
+        
+    
+    
+            var rectangle_a000dfda2b28a8424e906a07da1aefe1 = L.rectangle(
+                [[34.990063438070216, 135.72216396475076], [35.00706343807022, 135.73916396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_9b1dddd3d5c956e5f6f47d09b061b1b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b397c47fc320ef4ad0d1c1962b3a5c0c = $(`<div id="html_b397c47fc320ef4ad0d1c1962b3a5c0c" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 51</div>`)[0];
+                popup_9b1dddd3d5c956e5f6f47d09b061b1b5.setContent(html_b397c47fc320ef4ad0d1c1962b3a5c0c);
+            
+        
+
+        rectangle_a000dfda2b28a8424e906a07da1aefe1.bindPopup(popup_9b1dddd3d5c956e5f6f47d09b061b1b5)
+        ;
+
+        
+    
+    
+            var rectangle_3fbde86d1f8a991bb0e2ae61fe4a888a = L.rectangle(
+                [[34.990063438070216, 135.73916396475076], [35.00706343807022, 135.75616396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_3d7ca7fc9270509b42f2704aee9f167c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_853469bafc5056615e08c87a1cda0445 = $(`<div id="html_853469bafc5056615e08c87a1cda0445" style="width: 100.0%; height: 100.0%;">Median Price: ¥4499. Number of restaurants: 43</div>`)[0];
+                popup_3d7ca7fc9270509b42f2704aee9f167c.setContent(html_853469bafc5056615e08c87a1cda0445);
+            
+        
+
+        rectangle_3fbde86d1f8a991bb0e2ae61fe4a888a.bindPopup(popup_3d7ca7fc9270509b42f2704aee9f167c)
+        ;
+
+        
+    
+    
+            var rectangle_d575f035ac10b9fd1d7141ac02cde817 = L.rectangle(
+                [[34.990063438070216, 135.75616396475075], [35.00706343807022, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_c65c949241a686976492179377e3a64b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8f11ee0e51b3186a15750bfd15a45a3 = $(`<div id="html_c8f11ee0e51b3186a15750bfd15a45a3" style="width: 100.0%; height: 100.0%;">Median Price: ¥4499. Number of restaurants: 310</div>`)[0];
+                popup_c65c949241a686976492179377e3a64b.setContent(html_c8f11ee0e51b3186a15750bfd15a45a3);
+            
+        
+
+        rectangle_d575f035ac10b9fd1d7141ac02cde817.bindPopup(popup_c65c949241a686976492179377e3a64b)
+        ;
+
+        
+    
+    
+            var rectangle_c57908d9f2ead8dbef3b01db56937fe6 = L.rectangle(
+                [[34.990063438070216, 135.77316396475075], [35.00706343807022, 135.79016396475075]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_aecae67ffe04d832b75256ac0e9d138e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7100c8e39ace707ed54ed15898414407 = $(`<div id="html_7100c8e39ace707ed54ed15898414407" style="width: 100.0%; height: 100.0%;">Median Price: ¥8999. Number of restaurants: 114</div>`)[0];
+                popup_aecae67ffe04d832b75256ac0e9d138e.setContent(html_7100c8e39ace707ed54ed15898414407);
+            
+        
+
+        rectangle_c57908d9f2ead8dbef3b01db56937fe6.bindPopup(popup_aecae67ffe04d832b75256ac0e9d138e)
+        ;
+
+        
+    
+    
+            var rectangle_cc76667a37f8bfd38d5ea7a02231f6db = L.rectangle(
+                [[34.990063438070216, 135.80716396475074], [35.00706343807022, 135.82416396475074]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_5cbc381507add9132b7187b3c0d152ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dac7c2394e4c52822492f965b4df0aa2 = $(`<div id="html_dac7c2394e4c52822492f965b4df0aa2" style="width: 100.0%; height: 100.0%;">Median Price: ¥2499. Number of restaurants: 5</div>`)[0];
+                popup_5cbc381507add9132b7187b3c0d152ad.setContent(html_dac7c2394e4c52822492f965b4df0aa2);
+            
+        
+
+        rectangle_cc76667a37f8bfd38d5ea7a02231f6db.bindPopup(popup_5cbc381507add9132b7187b3c0d152ad)
+        ;
+
+        
+    
+    
+            var rectangle_b9d1b3055c640c65bd9b17f4d7a35c04 = L.rectangle(
+                [[35.00706343807022, 135.67116396475078], [35.02406343807022, 135.68816396475077]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_b53257bbb35538779c313c92bb20e2fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc8c17db798f332e5021b4b9733b3ba6 = $(`<div id="html_bc8c17db798f332e5021b4b9733b3ba6" style="width: 100.0%; height: 100.0%;">Median Price: ¥5499. Number of restaurants: 10</div>`)[0];
+                popup_b53257bbb35538779c313c92bb20e2fa.setContent(html_bc8c17db798f332e5021b4b9733b3ba6);
+            
+        
+
+        rectangle_b9d1b3055c640c65bd9b17f4d7a35c04.bindPopup(popup_b53257bbb35538779c313c92bb20e2fa)
+        ;
+
+        
+    
+    
+            var rectangle_4f651b3a0e917286b4a3233ea459c69d = L.rectangle(
+                [[35.00706343807022, 135.72216396475076], [35.02406343807022, 135.73916396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_fcdb0545f703fc05dbc7485b71fc7e52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4219c84335a410199f5b9093db4a434 = $(`<div id="html_c4219c84335a410199f5b9093db4a434" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 7</div>`)[0];
+                popup_fcdb0545f703fc05dbc7485b71fc7e52.setContent(html_c4219c84335a410199f5b9093db4a434);
+            
+        
+
+        rectangle_4f651b3a0e917286b4a3233ea459c69d.bindPopup(popup_fcdb0545f703fc05dbc7485b71fc7e52)
+        ;
+
+        
+    
+    
+            var rectangle_c75e3ceb3d13d54c91e699fee3b733a3 = L.rectangle(
+                [[35.00706343807022, 135.73916396475076], [35.02406343807022, 135.75616396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_3932af2b98218ecf7f0fcb90999163d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d25d76ca30e80f482f3276059dac97c5 = $(`<div id="html_d25d76ca30e80f482f3276059dac97c5" style="width: 100.0%; height: 100.0%;">Median Price: ¥4499. Number of restaurants: 29</div>`)[0];
+                popup_3932af2b98218ecf7f0fcb90999163d5.setContent(html_d25d76ca30e80f482f3276059dac97c5);
+            
+        
+
+        rectangle_c75e3ceb3d13d54c91e699fee3b733a3.bindPopup(popup_3932af2b98218ecf7f0fcb90999163d5)
+        ;
+
+        
+    
+    
+            var rectangle_def26ef98ebeb97f34b1ce6c7d7aaa0e = L.rectangle(
+                [[35.00706343807022, 135.75616396475075], [35.02406343807022, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_d987463cde2aec9fe89dc86b35897028 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6877e31db9797ee655220f075ec78293 = $(`<div id="html_6877e31db9797ee655220f075ec78293" style="width: 100.0%; height: 100.0%;">Median Price: ¥5499. Number of restaurants: 223</div>`)[0];
+                popup_d987463cde2aec9fe89dc86b35897028.setContent(html_6877e31db9797ee655220f075ec78293);
+            
+        
+
+        rectangle_def26ef98ebeb97f34b1ce6c7d7aaa0e.bindPopup(popup_d987463cde2aec9fe89dc86b35897028)
+        ;
+
+        
+    
+    
+            var rectangle_d5578dae0720491d801f956d19ff7520 = L.rectangle(
+                [[35.00706343807022, 135.77316396475075], [35.02406343807022, 135.79016396475075]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_c3130406ce6e400ef146b7b727608ab2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff9d72d7546397ad6143da1c20130ebf = $(`<div id="html_ff9d72d7546397ad6143da1c20130ebf" style="width: 100.0%; height: 100.0%;">Median Price: ¥5499. Number of restaurants: 17</div>`)[0];
+                popup_c3130406ce6e400ef146b7b727608ab2.setContent(html_ff9d72d7546397ad6143da1c20130ebf);
+            
+        
+
+        rectangle_d5578dae0720491d801f956d19ff7520.bindPopup(popup_c3130406ce6e400ef146b7b727608ab2)
+        ;
+
+        
+    
+    
+            var rectangle_4701e00b04234910d62323abd778ff1e = L.rectangle(
+                [[35.02406343807022, 135.72216396475076], [35.041063438070225, 135.73916396475076]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_18ff8d32697369e92b8de22c479e5a82 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_775ecb5c5d9917dc698d573d21dc361c = $(`<div id="html_775ecb5c5d9917dc698d573d21dc361c" style="width: 100.0%; height: 100.0%;">Median Price: ¥3999. Number of restaurants: 15</div>`)[0];
+                popup_18ff8d32697369e92b8de22c479e5a82.setContent(html_775ecb5c5d9917dc698d573d21dc361c);
+            
+        
+
+        rectangle_4701e00b04234910d62323abd778ff1e.bindPopup(popup_18ff8d32697369e92b8de22c479e5a82)
+        ;
+
+        
+    
+    
+            var rectangle_7aae3f4b53c1a0ae90695b1c71474bcb = L.rectangle(
+                [[35.02406343807022, 135.73916396475076], [35.041063438070225, 135.75616396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_22c41eea879d1812bfb24d21f0e44235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95fa9cf54631f381d0f68e4e05a5a088 = $(`<div id="html_95fa9cf54631f381d0f68e4e05a5a088" style="width: 100.0%; height: 100.0%;">Median Price: ¥4499. Number of restaurants: 10</div>`)[0];
+                popup_22c41eea879d1812bfb24d21f0e44235.setContent(html_95fa9cf54631f381d0f68e4e05a5a088);
+            
+        
+
+        rectangle_7aae3f4b53c1a0ae90695b1c71474bcb.bindPopup(popup_22c41eea879d1812bfb24d21f0e44235)
+        ;
+
+        
+    
+    
+            var rectangle_80e6f9b0e3728b3e129586af7064b2e4 = L.rectangle(
+                [[35.02406343807022, 135.75616396475075], [35.041063438070225, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_7e7c7f747dc533d8ae2e849b2d1232b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeaac955455baba053585f74fc030d3f = $(`<div id="html_aeaac955455baba053585f74fc030d3f" style="width: 100.0%; height: 100.0%;">Median Price: ¥6999. Number of restaurants: 9</div>`)[0];
+                popup_7e7c7f747dc533d8ae2e849b2d1232b5.setContent(html_aeaac955455baba053585f74fc030d3f);
+            
+        
+
+        rectangle_80e6f9b0e3728b3e129586af7064b2e4.bindPopup(popup_7e7c7f747dc533d8ae2e849b2d1232b5)
+        ;
+
+        
+    
+    
+            var rectangle_8c2e560994a170496d962a2dec9fd8aa = L.rectangle(
+                [[35.02406343807022, 135.77316396475075], [35.041063438070225, 135.79016396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_75f4570a60e96a0c7acd1b5f311f3dc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f63897b349b561cb6f8171ef239bdff6 = $(`<div id="html_f63897b349b561cb6f8171ef239bdff6" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 13</div>`)[0];
+                popup_75f4570a60e96a0c7acd1b5f311f3dc7.setContent(html_f63897b349b561cb6f8171ef239bdff6);
+            
+        
+
+        rectangle_8c2e560994a170496d962a2dec9fd8aa.bindPopup(popup_75f4570a60e96a0c7acd1b5f311f3dc7)
+        ;
+
+        
+    
+    
+            var rectangle_9cecb455e1dddb76c134fc626f50e1a9 = L.rectangle(
+                [[35.041063438070225, 135.73916396475076], [35.05806343807023, 135.75616396475075]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_e2de2837fb0a244eb6556dd3ec8e97ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5bfa8e6d07e5e9c75cb066b8c59fa7f = $(`<div id="html_f5bfa8e6d07e5e9c75cb066b8c59fa7f" style="width: 100.0%; height: 100.0%;">Median Price: ¥8999. Number of restaurants: 10</div>`)[0];
+                popup_e2de2837fb0a244eb6556dd3ec8e97ef.setContent(html_f5bfa8e6d07e5e9c75cb066b8c59fa7f);
+            
+        
+
+        rectangle_9cecb455e1dddb76c134fc626f50e1a9.bindPopup(popup_e2de2837fb0a244eb6556dd3ec8e97ef)
+        ;
+
+        
+    
+    
+            var rectangle_57a3273e47a724e09e3f976b4ba8ba8e = L.rectangle(
+                [[35.041063438070225, 135.75616396475075], [35.05806343807023, 135.77316396475075]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_4640b052fc41bd8124944a4031af2cd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84a1c012523f0f71ce184308dbd56e0b = $(`<div id="html_84a1c012523f0f71ce184308dbd56e0b" style="width: 100.0%; height: 100.0%;">Median Price: ¥5499. Number of restaurants: 7</div>`)[0];
+                popup_4640b052fc41bd8124944a4031af2cd7.setContent(html_84a1c012523f0f71ce184308dbd56e0b);
+            
+        
+
+        rectangle_57a3273e47a724e09e3f976b4ba8ba8e.bindPopup(popup_4640b052fc41bd8124944a4031af2cd7)
+        ;
+
+        
+    
+    
+            var rectangle_6dbabb377f9e4218e63f390fb3e1bc00 = L.rectangle(
+                [[35.041063438070225, 135.77316396475075], [35.05806343807023, 135.79016396475075]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_b59ee1305967b8604e93b625be03b899 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48cfd0905941e8f46c34803d5374e5e6 = $(`<div id="html_48cfd0905941e8f46c34803d5374e5e6" style="width: 100.0%; height: 100.0%;">Median Price: ¥3499. Number of restaurants: 8</div>`)[0];
+                popup_b59ee1305967b8604e93b625be03b899.setContent(html_48cfd0905941e8f46c34803d5374e5e6);
+            
+        
+
+        rectangle_6dbabb377f9e4218e63f390fb3e1bc00.bindPopup(popup_b59ee1305967b8604e93b625be03b899)
+        ;
+
+        
+    
+    
+            var rectangle_620040ef08ca4b9b696b313abc8b6513 = L.rectangle(
+                [[35.29606343807027, 135.1101639647509], [35.31306343807027, 135.1271639647509]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6aeff08eb8d37768e8436bbc0392ef52);
+        
+    
+        var popup_504700e210344930d6b69459021c214a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccc999d3bec318e2c3ccfa5d80f62bef = $(`<div id="html_ccc999d3bec318e2c3ccfa5d80f62bef" style="width: 100.0%; height: 100.0%;">Median Price: ¥5499. Number of restaurants: 5</div>`)[0];
+                popup_504700e210344930d6b69459021c214a.setContent(html_ccc999d3bec318e2c3ccfa5d80f62bef);
+            
+        
+
+        rectangle_620040ef08ca4b9b696b313abc8b6513.bindPopup(popup_504700e210344930d6b69459021c214a)
+        ;
+
+        
+    
+</script>
+</html>
