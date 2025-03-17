@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_292cec20a761edae9f7651d9b7967f83 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_292cec20a761edae9f7651d9b7967f83" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_292cec20a761edae9f7651d9b7967f83 = L.map(
+                "map_292cec20a761edae9f7651d9b7967f83",
+                {
+                    center: [35.009, 135.76710849713783],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a3a926405cb02df0a1228eacdb9911dd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a3a926405cb02df0a1228eacdb9911dd.addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var marker_ee1be793dce231a5a55bf1127677506c = L.marker(
+                [35.0036, 135.7785],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_a283e2a58714d2c9c8ca4f836d8ae53f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e25a85ac1dc295ed6c13ef6f4d983c96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b0480c5ea195563ce580a8e44810d71 = $(`<div id="html_3b0480c5ea195563ce580a8e44810d71" style="width: 100.0%; height: 100.0%;">Gion: 75.00% Japanese</div>`)[0];
+                popup_e25a85ac1dc295ed6c13ef6f4d983c96.setContent(html_3b0480c5ea195563ce580a8e44810d71);
+            
+        
+
+        marker_ee1be793dce231a5a55bf1127677506c.bindPopup(popup_e25a85ac1dc295ed6c13ef6f4d983c96)
+        ;
+
+        
+    
+    
+                marker_ee1be793dce231a5a55bf1127677506c.setIcon(icon_a283e2a58714d2c9c8ca4f836d8ae53f);
+            
+    
+            var marker_29aacabb0a6f7d553ef312d9b9951cbe = L.marker(
+                [35.0116, 135.7584],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_06b9a25cb682892a8bf50cb54351fbc8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4458bd1c1c0246b6e7cbf6c3b482e46e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_438579f16622d5f30402751936a02505 = $(`<div id="html_438579f16622d5f30402751936a02505" style="width: 100.0%; height: 100.0%;">Shimogyo: 42.55% Japanese</div>`)[0];
+                popup_4458bd1c1c0246b6e7cbf6c3b482e46e.setContent(html_438579f16622d5f30402751936a02505);
+            
+        
+
+        marker_29aacabb0a6f7d553ef312d9b9951cbe.bindPopup(popup_4458bd1c1c0246b6e7cbf6c3b482e46e)
+        ;
+
+        
+    
+    
+                marker_29aacabb0a6f7d553ef312d9b9951cbe.setIcon(icon_06b9a25cb682892a8bf50cb54351fbc8);
+            
+    
+            var marker_74cdc297f01693fb42c34f10ced08fe7 = L.marker(
+                [35.0222, 135.763],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_df633e825f7d24f329c9e4d3e07ea3fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a4361710e7f8e4284ff5d379d22bef6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cf708cac64bd87fba25d0db2675df0d = $(`<div id="html_3cf708cac64bd87fba25d0db2675df0d" style="width: 100.0%; height: 100.0%;">Kamo River Area: 66.67% Japanese</div>`)[0];
+                popup_0a4361710e7f8e4284ff5d379d22bef6.setContent(html_3cf708cac64bd87fba25d0db2675df0d);
+            
+        
+
+        marker_74cdc297f01693fb42c34f10ced08fe7.bindPopup(popup_0a4361710e7f8e4284ff5d379d22bef6)
+        ;
+
+        
+    
+    
+                marker_74cdc297f01693fb42c34f10ced08fe7.setIcon(icon_df633e825f7d24f329c9e4d3e07ea3fa);
+            
+    
+            var marker_6035d81aa6f7366e7bd72938c91d1d07 = L.marker(
+                [35.048, 135.7546],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_74cb271048e4900568633069c4803e5f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_caf6de52f80049f77404c5ec483643b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a4ac7572d37a65fe2bf93b01ab56f7a = $(`<div id="html_2a4ac7572d37a65fe2bf93b01ab56f7a" style="width: 100.0%; height: 100.0%;">Kamigamo: 50.00% Japanese</div>`)[0];
+                popup_caf6de52f80049f77404c5ec483643b2.setContent(html_2a4ac7572d37a65fe2bf93b01ab56f7a);
+            
+        
+
+        marker_6035d81aa6f7366e7bd72938c91d1d07.bindPopup(popup_caf6de52f80049f77404c5ec483643b2)
+        ;
+
+        
+    
+    
+                marker_6035d81aa6f7366e7bd72938c91d1d07.setIcon(icon_74cb271048e4900568633069c4803e5f);
+            
+    
+            var marker_db42cfd199753ae63b6a79a39518cfad = L.marker(
+                [35.027, 135.7726],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_16272f3b96853883062443a702f0018d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7aa034c8049954b1dae85aaedc9cc8ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37ca804a3c9e06d73279128743415d1d = $(`<div id="html_37ca804a3c9e06d73279128743415d1d" style="width: 100.0%; height: 100.0%;">Kyoto Imperial Palace Area: 33.33% Japanese</div>`)[0];
+                popup_7aa034c8049954b1dae85aaedc9cc8ca.setContent(html_37ca804a3c9e06d73279128743415d1d);
+            
+        
+
+        marker_db42cfd199753ae63b6a79a39518cfad.bindPopup(popup_7aa034c8049954b1dae85aaedc9cc8ca)
+        ;
+
+        
+    
+    
+                marker_db42cfd199753ae63b6a79a39518cfad.setIcon(icon_16272f3b96853883062443a702f0018d);
+            
+    
+            var marker_bffd8268b32692280fbc00d549c6e94f = L.marker(
+                [35.9943, 135.7831],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_f66f1cbbfb9935f1408d5a9607a1107a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_959b6f3746b70d79fee53f5ac1ee5003 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4b9d70b71db5011c0bdff9b7a6f15c6 = $(`<div id="html_a4b9d70b71db5011c0bdff9b7a6f15c6" style="width: 100.0%; height: 100.0%;">Higashiyama: 66.67% Japanese</div>`)[0];
+                popup_959b6f3746b70d79fee53f5ac1ee5003.setContent(html_a4b9d70b71db5011c0bdff9b7a6f15c6);
+            
+        
+
+        marker_bffd8268b32692280fbc00d549c6e94f.bindPopup(popup_959b6f3746b70d79fee53f5ac1ee5003)
+        ;
+
+        
+    
+    
+                marker_bffd8268b32692280fbc00d549c6e94f.setIcon(icon_f66f1cbbfb9935f1408d5a9607a1107a);
+            
+    
+            var marker_3fe865eeebc68c7b5153008fd071c015 = L.marker(
+                [35.011, 135.7413],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_35c59f2c9e91c2b870337c062acd5e11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b32d7968706d8de2e97ed2bf5baacdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_727320309941d6b449051381062a305b = $(`<div id="html_727320309941d6b449051381062a305b" style="width: 100.0%; height: 100.0%;">Nijo: 50.00% Japanese</div>`)[0];
+                popup_9b32d7968706d8de2e97ed2bf5baacdc.setContent(html_727320309941d6b449051381062a305b);
+            
+        
+
+        marker_3fe865eeebc68c7b5153008fd071c015.bindPopup(popup_9b32d7968706d8de2e97ed2bf5baacdc)
+        ;
+
+        
+    
+    
+                marker_3fe865eeebc68c7b5153008fd071c015.setIcon(icon_35c59f2c9e91c2b870337c062acd5e11);
+            
+    
+            var marker_304b5c4010fa80717f651ac45d044a23 = L.marker(
+                [35.0055, 135.7599],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_069758b9c8e45696ef5154fa5213943b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_89ffa449402077458fe0002c85b4151b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b9509cc17fdd3042cfb6332eb26fa45 = $(`<div id="html_0b9509cc17fdd3042cfb6332eb26fa45" style="width: 100.0%; height: 100.0%;">Nishiki Market: 42.55% Japanese</div>`)[0];
+                popup_89ffa449402077458fe0002c85b4151b.setContent(html_0b9509cc17fdd3042cfb6332eb26fa45);
+            
+        
+
+        marker_304b5c4010fa80717f651ac45d044a23.bindPopup(popup_89ffa449402077458fe0002c85b4151b)
+        ;
+
+        
+    
+    
+                marker_304b5c4010fa80717f651ac45d044a23.setIcon(icon_069758b9c8e45696ef5154fa5213943b);
+            
+    
+            var marker_0e150d5ed6b00ab6914f1ecd2b0df876 = L.marker(
+                [34.9855, 135.7584],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_c1b8b52baef8d4b26fad73122b6d5555 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cb975218ae51324f6715bf626b0f502 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cfd372ee5c7d17313920e37ebaf84a4 = $(`<div id="html_0cfd372ee5c7d17313920e37ebaf84a4" style="width: 100.0%; height: 100.0%;">Kyoto Station Area: 47.83% Japanese</div>`)[0];
+                popup_4cb975218ae51324f6715bf626b0f502.setContent(html_0cfd372ee5c7d17313920e37ebaf84a4);
+            
+        
+
+        marker_0e150d5ed6b00ab6914f1ecd2b0df876.bindPopup(popup_4cb975218ae51324f6715bf626b0f502)
+        ;
+
+        
+    
+    
+                marker_0e150d5ed6b00ab6914f1ecd2b0df876.setIcon(icon_c1b8b52baef8d4b26fad73122b6d5555);
+            
+    
+            var marker_8d8eadb19a2df59f2645bedfb5c6ee59 = L.marker(
+                [34.9949, 135.785],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_90561d4e1cd85604b0c4e35cc726d3df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e8b53ea9f67fd1439971d1f3fba5165a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8287160c1667123217e401ad57b6ba85 = $(`<div id="html_8287160c1667123217e401ad57b6ba85" style="width: 100.0%; height: 100.0%;">Kiyomizu: 75.00% Japanese</div>`)[0];
+                popup_e8b53ea9f67fd1439971d1f3fba5165a.setContent(html_8287160c1667123217e401ad57b6ba85);
+            
+        
+
+        marker_8d8eadb19a2df59f2645bedfb5c6ee59.bindPopup(popup_e8b53ea9f67fd1439971d1f3fba5165a)
+        ;
+
+        
+    
+    
+                marker_8d8eadb19a2df59f2645bedfb5c6ee59.setIcon(icon_90561d4e1cd85604b0c4e35cc726d3df);
+            
+    
+            var marker_e8684d36fabbb5e8b2c347b09d2eb8e4 = L.marker(
+                [34.8983, 135.7777],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_506e5e41ece0859d075d9935c15f2df3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_569945b512b8a45aeb9b9f5c97497b51 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e199cfff6f953b2e0e9f458395f93e40 = $(`<div id="html_e199cfff6f953b2e0e9f458395f93e40" style="width: 100.0%; height: 100.0%;">Fushimi: 100.00% Japanese</div>`)[0];
+                popup_569945b512b8a45aeb9b9f5c97497b51.setContent(html_e199cfff6f953b2e0e9f458395f93e40);
+            
+        
+
+        marker_e8684d36fabbb5e8b2c347b09d2eb8e4.bindPopup(popup_569945b512b8a45aeb9b9f5c97497b51)
+        ;
+
+        
+    
+    
+                marker_e8684d36fabbb5e8b2c347b09d2eb8e4.setIcon(icon_506e5e41ece0859d075d9935c15f2df3);
+            
+    
+            var marker_e89804bee08947d5b30bb3e7c7dc426d = L.marker(
+                [35.0126, 135.6662],
+                {
+}
+            ).addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+    
+            var icon_4f87462e8d19e935fafff7ae148869d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c233c1981ef1a9f692e07b3754e42ad2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96a741889357d7b1c286fdfefeb498a7 = $(`<div id="html_96a741889357d7b1c286fdfefeb498a7" style="width: 100.0%; height: 100.0%;">Sagano: 50.00% Japanese</div>`)[0];
+                popup_c233c1981ef1a9f692e07b3754e42ad2.setContent(html_96a741889357d7b1c286fdfefeb498a7);
+            
+        
+
+        marker_e89804bee08947d5b30bb3e7c7dc426d.bindPopup(popup_c233c1981ef1a9f692e07b3754e42ad2)
+        ;
+
+        
+    
+    
+                marker_e89804bee08947d5b30bb3e7c7dc426d.setIcon(icon_4f87462e8d19e935fafff7ae148869d8);
+            
+    
+            var heat_map_cb59e665082e2e398e9979fa8c870efe = L.heatLayer(
+                [[34.71, 135.81, 0.0], [34.730000000000004, 135.82, 0.0], [34.74, 135.76, 100.0], [34.81, 135.77, 100.0], [34.82, 135.77, 50.0], [34.83, 135.72, 40.0], [34.83, 135.73, 100.0], [34.83, 135.78, 100.0], [34.85, 135.69, 100.0], [34.85, 135.7, 100.0], [34.85, 135.76, 0.0], [34.85, 135.77, 0.0], [34.85, 135.78, 100.0], [34.87, 135.75, 100.0], [34.87, 135.77, 100.0], [34.87, 135.78, 100.0], [34.88, 135.77, 0.0], [34.88, 135.79, 66.66666666666666], [34.88, 135.8, 100.0], [34.89, 135.68, 0.0], [34.89, 135.78, 0.0], [34.89, 135.8, 25.0], [34.9, 135.78, 100.0], [34.910000000000004, 135.78, 100.0], [34.910000000000004, 135.8, 100.0], [34.92, 135.69, 100.0], [34.92, 135.7, 100.0], [34.92, 135.75, 100.0], [34.92, 135.76, 0.0], [34.93, 135.75, 50.0], [34.93, 135.76, 62.5], [34.93, 135.79, 100.0], [34.94, 135.68, 100.0], [34.94, 135.69, 0.0], [34.94, 135.71, 100.0], [34.94, 135.74, 100.0], [34.94, 135.75, 50.0], [34.94, 135.76, 33.33333333333333], [34.95, 135.7, 50.0], [34.95, 135.76, 100.0], [34.95, 135.77, 50.0], [34.96, 135.5, 0.0], [34.96, 135.66, 0.0], [34.96, 135.67000000000002, 0.0], [34.96, 135.72, 100.0], [34.96, 135.76, 33.33333333333333], [34.96, 135.8, 100.0], [34.96, 135.81, 100.0], [34.97, 135.67000000000002, 100.0], [34.97, 135.68, 0.0], [34.97, 135.69, 0.0], [34.97, 135.7, 50.0], [34.97, 135.71, 100.0], [34.97, 135.73, 42.857142857142854], [34.97, 135.74, 66.66666666666666], [34.97, 135.75, 0.0], [34.97, 135.81, 100.0], [34.980000000000004, 135.69, 66.66666666666666], [34.980000000000004, 135.71, 100.0], [34.980000000000004, 135.72, 33.33333333333333], [34.980000000000004, 135.73, 75.0], [34.980000000000004, 135.74, 57.14285714285714], [34.980000000000004, 135.75, 64.28571428571429], [34.980000000000004, 135.76, 68.75], [34.980000000000004, 135.77, 0.0], [34.980000000000004, 135.8, 100.0], [34.980000000000004, 135.81, 55.55555555555556], [34.99, 135.69, 100.0], [34.99, 135.71, 100.0], [34.99, 135.72, 100.0], [34.99, 135.73, 87.5], [34.99, 135.74, 66.66666666666666], [34.99, 135.75, 53.84615384615385], [34.99, 135.76, 47.82608695652174], [34.99, 135.77, 37.5], [34.99, 135.78, 0.0], [34.99, 135.81, 40.0], [35.0, 135.6, 100.0], [35.0, 135.68, 0.0], [35.0, 135.72, 75.0], [35.0, 135.73, 54.761904761904766], [35.0, 135.74, 61.904761904761905], [35.0, 135.75, 55.0561797752809], [35.0, 135.76, 63.72093023255814], [35.0, 135.77, 73.93162393162393], [35.0, 135.78, 75.0], [35.01, 135.58, 100.0], [35.01, 135.67000000000002, 50.0], [35.01, 135.68, 75.0], [35.01, 135.7, 100.0], [35.01, 135.71, 100.0], [35.01, 135.72, 0.0], [35.01, 135.73, 80.0], [35.01, 135.74, 50.0], [35.01, 135.75, 47.61904761904761], [35.01, 135.76, 42.5531914893617], [35.01, 135.77, 55.55555555555556], [35.01, 135.78, 14.285714285714285], [35.01, 135.79, 0.0], [35.02, 135.66, 0.0], [35.02, 135.67000000000002, 100.0], [35.02, 135.69, 100.0], [35.02, 135.7, 100.0], [35.02, 135.71, 100.0], [35.02, 135.73, 55.55555555555556], [35.02, 135.74, 100.0], [35.02, 135.75, 80.0], [35.02, 135.76, 66.66666666666666], [35.02, 135.77, 28.57142857142857], [35.02, 135.78, 100.0], [35.02, 135.79, 50.0], [35.03, 135.73, 16.666666666666664], [35.03, 135.74, 50.0], [35.03, 135.75, 100.0], [35.03, 135.76, 100.0], [35.03, 135.77, 33.33333333333333], [35.03, 135.78, 100.0], [35.04, 135.54, 100.0], [35.04, 135.74, 50.0], [35.04, 135.75, 100.0], [35.04, 135.76, 100.0], [35.04, 135.77, 33.33333333333333], [35.04, 135.78, 60.0], [35.050000000000004, 135.73, 0.0], [35.050000000000004, 135.74, 50.0], [35.050000000000004, 135.75, 50.0], [35.050000000000004, 135.76, 0.0], [35.050000000000004, 135.77, 0.0], [35.050000000000004, 135.78, 0.0], [35.050000000000004, 135.79, 100.0], [35.06, 135.76, 0.0], [35.06, 135.79, 100.0], [35.12, 135.76, 100.0], [35.19, 135.29, 0.0], [35.26, 135.57, 0.0], [35.29, 135.11, 33.33333333333333], [35.300000000000004, 135.11, 50.0], [35.300000000000004, 135.12, 0.0], [35.44, 135.32, 100.0], [35.46, 135.39000000000001, 100.0], [35.47, 135.39000000000001, 66.66666666666666], [35.65, 134.97, 100.0], [35.730000000000004, 135.08, 100.0], [35.74, 135.09, 0.0]],
+                {
+  "minOpacity": 0.2,
+  "maxZoom": 18,
+  "radius": 30,
+  "blur": 20,
+  "gradient": {
+  "0": "blue",
+  "0.3": "blue",
+  "0.4": "green",
+  "0.5": "yellow",
+  "0.6": "red",
+},
+}
+            );
+        
+    
+            heat_map_cb59e665082e2e398e9979fa8c870efe.addTo(map_292cec20a761edae9f7651d9b7967f83);
+        
+</script>
+</html>
